@@ -24,7 +24,7 @@ cd avito_internship_PR
 ```bash
 docker compose up
 ```
-Или
+Или (если уже установлен task)
 ```bash
 task up:docker-compose
 ```
@@ -33,6 +33,7 @@ task up:docker-compose
 
 ### Локальное использование
 Для этого можно применять Taskfile
+Гайд по установке: https://taskfile.dev/docs/installation#official-package-managers
 ````bash
 #Для запуска линтера из корневой директории
 task lint
