@@ -7,7 +7,7 @@
 ```bash
 git clone https://github.com/EgorTomat0/PR_dz
 
-cd avito_internship_PR
+cd PR_dz
 ```
 ```bash
 docker compose up -d
