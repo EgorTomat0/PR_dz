@@ -1,2 +1,6 @@
 .idea
 .scripts
+./load_testing
+.golangci.yml
+./scripts
+README_v1.md

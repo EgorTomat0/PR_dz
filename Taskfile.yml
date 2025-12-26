@@ -6,11 +6,11 @@ tasks:
     cmds:
       - go run cmd/main.go
     silent: false
-  lint:
-    desc: "Run project's lint"
-    cmds:
-      - golangci-lint run
-    silent: false
+#  lint:
+#    desc: "Run project's lint"
+#    cmds:
+#      - golangci-lint run
+#    silent: false
   up:docker-compose:
     desc: "Run project via docker-compose"
     cmds:
